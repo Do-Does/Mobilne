@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), MapsActivity.class);
+                Intent myIntent = new Intent(view.getContext(), AddressActivity.class);
                 startActivityForResult(myIntent, 0);
             }
         });

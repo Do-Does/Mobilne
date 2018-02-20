@@ -13,10 +13,20 @@ import android.widget.Button;
 public class AddressActivity  extends AppCompatActivity {
 
     Button powrot;
+    Button pokaz;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_address);
+        pokaz = findViewById(R.id.btMapa);
+        pokaz.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), MapsActivity.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
         powrot = findViewById(R.id.btCofnij);
         powrot.setOnClickListener(new View.OnClickListener(){
 

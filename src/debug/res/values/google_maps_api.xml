@@ -11,7 +11,7 @@
     Package name:
     F8:BA:79:7E:8A:C7:B4:E3:C5:88:1D:8C:B5:46:5D:A1:CD:23:CA:5E
 
-    SHA-1 certificate fingerprint:
+    tloHA-1 certificate fingerprint:
     F8:BA:79:7E:8A:C7:B4:E3:C5:88:1D:8C:B5:46:5D:A1:CD:23:CA:5E
 
     Alternatively, follow the directions here:
@@ -20,5 +20,5 @@
     Once you have your key (it starts with "AIza"), replace the "google_maps_key"
     string in this file.
     -->
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAtsRLZVvKOzY-r_e8i0t90zlsC0wgHfJA</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"> AIzaSyAn-gJxGjsj-EqOsPEFXULgcac-x1Eh7ww </string>
 </resources>
